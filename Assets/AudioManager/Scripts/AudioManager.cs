@@ -5,7 +5,7 @@ using UnityEngine.Timeline;
 
 namespace AudioManager.scripts {
     public class AudioManager : MonoBehaviour {
-        public AudioSource musicSource, effectSource;
+        private AudioSource musicSource, effectSource;
 
         private bool musicOn, effectOn;
 
