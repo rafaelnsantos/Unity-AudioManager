@@ -16,10 +16,8 @@ namespace AudioManager.scripts {
 
         public static AudioManager Instance = null;
 
-        /// <summary>
-        /// Singleton pattern.
-        /// </summary>
         void Awake () {
+            // Singleton Patter
             if (Instance == null) {
                 Instance = this;
             } else if (Instance != this) {
