@@ -1,7 +1,4 @@
-﻿using System.Reflection;
-using UnityEngine;
-using UnityEngine.Audio;
-using UnityEngine.Timeline;
+﻿using UnityEngine;
 
 namespace AudioManager.scripts {
     public class AudioManager : MonoBehaviour {
